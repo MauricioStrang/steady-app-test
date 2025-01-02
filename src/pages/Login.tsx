@@ -1,6 +1,8 @@
 import styles from "./login.module.css"
+import 
  
 const LoginPage = () =>{
+
     return(
         <div className={styles.container}>
             <div className={styles.wrapper}>
@@ -10,6 +12,8 @@ const LoginPage = () =>{
                 <h1 className={styles.title}>Sign in to Steady</h1>
 
                 <div className={styles.emailBox}>
+
+                    <form action=></form>
                     <input type="text" placeholder="Email" />
                     <button type="button">Send</button>
                 </div>
